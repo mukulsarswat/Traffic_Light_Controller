@@ -18,7 +18,7 @@ Visit the [EDA Playground link](https://edaplayground.com/x/iN2U) to directly ac
 
 ## State Diagram  
 The state diagram visually represents the **finite state machine (FSM)** controlling the traffic light. Each state corresponds to a **specific light phase**, and **transitions occur** based on a timing counter. By examining the diagram, one can easily understand the flow of operations and the logic behind each transition.  
-[STATE DIAGRAM](https://photos.app.goo.gl/4YzZxK7zZzZzZzZz9)
+[STATE DIAGRAM](https://photos.app.goo.gl/GGowGGgkB6E9eaRC7)
 
 ## Module Description
 
