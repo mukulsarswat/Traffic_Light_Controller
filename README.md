@@ -74,6 +74,7 @@ The following is a reference waveform generated from the `tb_traffic_light_contr
   - **Test Case 5**: FSM completes multiple cycles with correct timing.
 
 - Use EPWave’s time axis (set to ps) to zoom into specific transitions and verify light durations.
+- Here i used new site foe VCD viewer by uploading `traffic_light.vcd` on [Site](https://vc.drom.io/).
 
 ## Usage  
 - Clone or download this repository.
@@ -85,7 +86,3 @@ The following is a reference waveform generated from the `tb_traffic_light_contr
 - The design assumes a 10 ns clock period (5 ns high, 5 ns low).
 - The testbench is designed to be comprehensive, covering normal operation and reset conditions.
 - For further customization, modify the testbench delays or add new test cases in `tb_traffic_light_controller`.
-
----
-
-Let me know if you'd like a version with presenter notes, waveform annotations, or a GitHub concept card for this project. I can also help you extend this to multi-road intersections or sensor-based adaptive control!
