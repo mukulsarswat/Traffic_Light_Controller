@@ -65,7 +65,8 @@ The state diagram visually represents the **finite state machine (FSM)** control
 
 ## Waveform  
 The following is a reference waveform generated from the `tb_traffic_light_controller` testbench using Siemens QuestaSim on EDA Playground. It shows the behavior of all signals and the internal state (`current_state`) across the test cases.  
-[Waveform Reference](https://photos.app.goo.gl/9z7C9HZjm97a1ZPc9)
+
+[Waveform Reference](https://photos.app.goo.gl/mE155VKnE6wHFDzP8)
 
 ## Analyze Waveforms  
 - Verify key events:
