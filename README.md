@@ -81,7 +81,7 @@ The following is a reference waveform generated from the `tb_traffic_light_contr
 
 To simulate with external data (e.g., test vectors or expected outputs), EDA Playground allows you to upload and read text files directly in your testbench.
 
-#### 🔹 Steps to Add an Input File
+### 🔹 Steps to Add an Input File
 
 1. Click **“Add file”** in the EDA Playground editor.
 2. Name the file (e.g., `input.txt`) and paste your data:
