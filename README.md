@@ -75,7 +75,33 @@ The following is a reference waveform generated from the `tb_traffic_light_contr
   - **Test Case 5**: FSM completes multiple cycles with correct timing.
 
 - Use EPWave’s time axis (set to ps) to zoom into specific transitions and verify light durations.
-- Here i used new site foe VCD viewer by uploading `traffic_light.vcd` on [Site](https://vc.drom.io/).
+- Here i used new site for VCD viewer by uploading `traffic_light.vcd` on [Site](https://vc.drom.io/).
+
+### 📁 Using Input Files on EDA Playground
+
+To simulate with external data (e.g., test vectors or expected outputs), EDA Playground allows you to upload and read text files directly in your testbench.
+
+#### 🔹 Steps to Add an Input File
+
+1. Click **“Add file”** in the EDA Playground editor.
+2. Name the file (e.g., `input.txt`) and paste your data:
+   ```
+   Time(ns)   Red   Yellow   Green
+   0          1     0        0
+   100        0     0        1
+   200        0     1        0
+   ```
+3. In your testbench, use `$fopen` and `$fscanf` to read the file:
+   ```verilog
+   integer data_file;
+   data_file = $fopen("input.txt", "r");
+   scan_file = $fscanf(data_file, "%d %d %d %d\n", time_ns, expected_red, expected_yellow, expected_green);
+   ```
+
+4. Use the read values to drive or verify your DUT behavior.
+
+> ✅ Tip: Always check if the file opened successfully and skip header lines if needed.
+
 
 ## Usage  
 - Clone or download this repository.
