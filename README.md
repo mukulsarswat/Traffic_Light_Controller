@@ -102,6 +102,8 @@ To simulate with external data (e.g., test vectors or expected outputs), EDA Pla
 
 > ✅ Tip: Always check if the file opened successfully and skip header lines if needed.
 
+[OUTPUT WAVEFORM](https://photos.app.goo.gl/uFUbvNWqBUbHmPVF8)
+
 
 ## Usage  
 - Clone or download this repository.
